@@ -1,0 +1,5 @@
+experiment,model,mean_rmse,std_rmse,fold_1_rmse,fold_2_rmse,fold_3_rmse,fold_4_rmse,fold_5_rmse
+01_dummy,DummyRegressor,16.499184,0.306693,16.585225,16.879983,15.947789,16.469761,16.613162
+02_ridge,Ridge,9.38311,0.20943,9.568479,9.65905,9.200749,9.108285,9.378988
+03_hist_gradient_boosting,HistGradientBoostingRegressor,7.475892,0.127969,7.515431,7.639594,7.292903,7.366197,7.565337
+04_hist_gradient_boosting_tuned,HistGradientBoostingRegressor,7.444215,0.123714,7.455501,7.598803,7.240749,7.390913,7.53511
