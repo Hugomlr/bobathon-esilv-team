@@ -1,0 +1,13 @@
+{
+  "key": "exp_001_dummy",
+  "model": "DummyRegressor",
+  "params": {
+    "constant": null,
+    "quantile": null,
+    "strategy": "mean"
+  },
+  "description": "Dummy baseline (predict mean)",
+  "need_imputation": false,
+  "random_state": 42,
+  "n_splits": 5
+}

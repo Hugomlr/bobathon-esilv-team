@@ -1,0 +1,9 @@
+report_key,model,rmse,rmse_std,mae,gain_vs_dummy_%,csv_file,hub_report
+09_two_stage_ensemble,Two stages: ensemble of linear-tree LightGBMs + CatBoost,3.551,0.0495,2.615,78.5,submissions/09_two_stage_ensemble.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/09_two_stage_ensemble
+08_two_stage_lgbm,Two stages: LightGBM linear trees,3.5603,0.044,2.621,78.4,submissions/08_two_stage_lgbm.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/08_two_stage_lgbm
+07_patient_features_lgbm,Single stage: LightGBM + patient-level features,4.1816,0.0792,3.1244,74.7,submissions/07_patient_features_lgbm.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/07_patient_features_lgbm
+04_hist_gradient_boosting_tuned,HistGradientBoosting (tuned) + extra columns,7.4859,0.1282,5.8781,54.6,submissions/04_hist_gradient_boosting_tuned.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/04_hist_gradient_boosting_tuned
+05_tabular_pipeline,skrub tabular_pipeline,7.5308,0.1253,5.9275,54.4,submissions/05_tabular_pipeline.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/05_tabular_pipeline
+03_hist_gradient_boosting,HistGradientBoosting (default),7.7501,0.1415,6.1034,53.0,submissions/03_hist_gradient_boosting.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/03_hist_gradient_boosting
+02_ridge,Ridge + median imputation,10.5965,0.2388,8.5261,35.8,submissions/02_ridge.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/02_ridge
+01_dummy,Dummy mean,16.4992,0.3067,13.489,0.0,submissions/01_dummy.csv,https://skore.probabl.ai/chml/projects/bobathon-esilv/reports/01_dummy
